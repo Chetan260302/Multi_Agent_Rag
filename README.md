@@ -1,4 +1,4 @@
-# Multi-Agent RAG System
+# DataAnalyzer Team - Multi-Agent RAG System
 
 ## Overview
 
