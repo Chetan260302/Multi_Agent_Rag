@@ -179,7 +179,11 @@ python faker_setup_postgres.py
 
 ## Notes
 
-- `company.db` is included for direct testing  
+- `company.db` is included for direct testing  (it containes Tables
+-   - Sales ( id, customer_id,employee_id, amount, sale_date)
+    - projects ( id, name, start_date,end_date,budget)
+    - employees (id, name, role, salary, project_id)
+    - customers (id, name, city, join_date)
 - `.env` should NOT be committed  
 - SQL execution is safely restricted to **SELECT/WITH only**  
 - No destructive commands are allowed  
